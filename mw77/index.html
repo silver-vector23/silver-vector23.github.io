@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mw777.me-mw777.me官网入口_mw777.me访问地址与页面说明</title>
+<meta name="description" content="mw777.me 主题首页，说明 mw777.me 的访问入口、页面定位、使用方式与常见问题，帮助访问者快速了解 mw777.me 的入口路径与访问注意事项。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310172b'/%3E%3Cpath d='M14 44V20h6l6 12 6-12h6l-9 24h-6l-3-6-3 6z' fill='%235eead4'/%3E%3Ccircle cx='46' cy='24' r='5' fill='%23ffd166'/%3E%3C/svg%3E">
+<style>
+  :root{
+    --ink:#10172b;
+    --ink-2:#1c2540;
+    --paper:#f6f7fb;
+    --card:#ffffff;
+    --line:#e2e6f0;
+    --muted:#5b6478;
+    --teal:#0fa89a;
+    --teal-deep:#0b7d72;
+    --amber:#e8a33d;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif;
+    background:var(--paper);
+    color:var(--ink);
+    line-height:1.75;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  .wrap{width:min(1120px,92vw);margin:0 auto;}
+
+  /* 页头 */
+  header.site{
+    position:sticky;top:0;z-index:50;
+    background:rgba(16,23,43,.96);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid rgba(255,255,255,.08);
+  }
+  .head-inner{
+    display:flex;align-items:center;justify-content:space-between;
+    gap:20px;padding:12px 0;flex-wrap:wrap;
+  }
+  .brand{display:flex;align-items:center;gap:10px;color:#fff;}
+  .brand svg{width:34px;height:34px;flex:0 0 auto;}
+  .brand .bt{
+    font-size:1.06rem;font-weight:700;letter-spacing:.3px;
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+  }
+  nav.main{display:flex;gap:6px;flex-wrap:wrap;}
+  nav.main a{
+    color:#c9d1e4;font-size:.9rem;padding:6px 11px;border-radius:8px;
+    transition:background .18s,color .18s;
+  }
+  nav.main a:hover,nav.main a:focus-visible{background:rgba(94,234,212,.14);color:#5eead4;}
+
+  /* 首屏 */
+  .hero{
+    background:
+      radial-gradient(700px 320px at 88% -10%,rgba(94,234,212,.22),transparent 70%),
+      radial-gradient(560px 300px at 4% 110%,rgba(232,163,61,.16),transparent 70%),
+      linear-gradient(160deg,#10172b 0%,#16203a 60%,#1b2946 100%);
+    color:#fff;padding:56px 0 60px;
+  }
+  .hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:42px;align-items:center;}
+  .kicker{
+    display:inline-flex;align-items:center;gap:8px;
+    font-size:.78rem;letter-spacing:.14em;text-transform:uppercase;
+    color:#5eead4;border:1px solid rgba(94,234,212,.4);
+    padding:4px 12px;border-radius:999px;margin-bottom:18px;
+  }
+  .kicker i{width:6px;height:6px;border-radius:50%;background:#5eead4;display:block;}
+  h1{
+    margin:0 0 16px;font-size:clamp(1.9rem,4.6vw,2.9rem);
+    line-height:1.25;letter-spacing:.5px;
+    font-family:"SFMono-Regular",Consolas,"Liberation Mono",monospace;
+    word-break:break-all;
+  }
+  .hero p.lead{margin:0 0 26px;color:#c5cfe4;font-size:1.02rem;max-width:38em;}
+  .cta-row{display:flex;gap:12px;flex-wrap:wrap;}
+  .btn{
+    display:inline-flex;align-items:center;gap:8px;
+    padding:11px 22px;border-radius:10px;font-size:.95rem;font-weight:600;
+    transition:transform .16s,background .18s,box-shadow .18s;
+  }
+  .btn-primary{background:#5eead4;color:#0b2b28;}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 22px rgba(94,234,212,.28);}
+  .btn-ghost{background:transparent;color:#e5ebf8;border:1px solid rgba(255,255,255,.28);}
+  .btn-ghost:hover{background:rgba(255,255,255,.08);}
+  .btn-disabled{
+    background:rgba(255,255,255,.1);color:#9aa7c2;border:1px dashed rgba(255,255,255,.24);
+    cursor:not-allowed;pointer-events:none;
+  }
+  .hero-art{
+    background:rgba(255,255,255,.045);
+    border:1px solid rgba(255,255,255,.12);
+    border-radius:18px;padding:20px;
+  }
+  .hero-art h2{margin:0 0 12px;font-size:.95rem;color:#5eead4;font-weight:600;letter-spacing:.06em;}
+  .mini-list{list-style:none;margin:0;padding:0;display:grid;gap:10px;}
+  .mini-list li{
+    display:flex;justify-content:space-between;gap:12px;
+    font-size:.88rem;color:#cbd4e6;
+    border-bottom:1px dashed rgba(255,255,255,.12);padding-bottom:9px;
+  }
+  .mini-list li:last-child{border-bottom:none;padding-bottom:0;}
+  .mini-list b{color:#fff;font-weight:600;}
+
+  /* 通用区块 */
+  section{padding:54px 0;}
+  .sec-head{margin-bottom:28px;}
+  .sec-tag{
+    font-size:.76rem;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--teal-deep);font-weight:700;display:block;margin-bottom:8px;
+  }
+  h2.sec-title{
+    margin:0;font-size:clamp(1.3rem,2.6vw,1.65rem);
+    line-height:1.35;letter-spacing:.2px;
+  }
+  .sec-desc{margin:10px 0 0;color:var(--muted);max-width:44em;font-size:.96rem;}
+
+  /* 卡片网格 */
+  .grid{display:grid;gap:18px;}
+  .g3{grid-template-columns:repeat(3,1fr);}
+  .g2{grid-template-columns:repeat(2,1fr);}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px 22px 24px;
+    transition:border-color .18s,box-shadow .18s,transform .18s;
+  }
+  .card:hover{border-color:#c8d5ee;box-shadow:0 12px 28px rgba(20,32,60,.07);transform:translateY(-2px);}
+  .card .ico{
+    width:38px;height:38px;border-radius:10px;display:grid;place-items:center;
+    background:linear-gradient(140deg,#e6fbf7,#d5f3ee);color:var(--teal-deep);
+    margin-bottom:14px;
+  }
+  .card h3{margin:0 0 8px;font-size:1.02rem;letter-spacing:.2px;}
+  .card p{margin:0;color:var(--muted);font-size:.92rem;line-height:1.7;}
+  .card p + p{margin-top:9px;}
+
+  /* 正文区 */
+  .prose{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:30px clamp(20px,3vw,38px);
+  }
+  .prose h3{margin:26px 0 10px;font-size:1.08rem;}
+  .prose h3:first-child{margin-top:0;}
+  .prose p{margin:0 0 14px;color:#33405c;font-size:.96rem;}
+  .prose strong{color:var(--ink);}
+  .divider{height:1px;background:var(--line);margin:26px 0;}
+
+  /* 步骤 */
+  .steps{counter-reset:st;display:grid;gap:14px;}
+  .step{
+    display:grid;grid-template-columns:44px 1fr;gap:16px;align-items:start;
+    background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px 20px;
+  }
+  .step::before{
+    counter-increment:st;content:counter(st,decimal-leading-zero);
+    font-family:Consolas,monospace;font-size:1rem;font-weight:700;
+    color:var(--teal-deep);background:#e6fbf7;border-radius:9px;
+    display:grid;place-items:center;height:40px;
+  }
+  .step h4{margin:0 0 6px;font-size:.98rem;}
+  .step p{margin:0;color:var(--muted);font-size:.9rem;}
+
+  /* 问答 */
+  details.faq{
+    background:var(--card);border:1px solid var(--line);border-radius:12px;
+    padding:16px 20px;margin-bottom:12px;
+  }
+  details.faq[open]{border-color:#b9e6df;}
+  details.faq summary{
+    cursor:pointer;font-weight:600;font-size:.97rem;list-style:none;
+    display:flex;justify-content:space-between;align-items:center;gap:14px;
+  }
+  details.faq summary::-webkit-details-marker{display:none;}
+  details.faq summary::after{content:"+";color:var(--teal-deep);font-size:1.2rem;font-weight:700;}
+  details.faq[open] summary::after{content:"−";}
+  details.faq p{margin:12px 0 0;color:var(--muted);font-size:.92rem;}
+
+  /* 侧栏式提示条 */
+  .notice{
+    display:flex;gap:16px;align-items:flex-start;
+    background:#fff8ea;border:1px solid #f3ddb4;border-radius:12px;
+    padding:18px 20px;margin-top:22px;
+  }
+  .notice svg{flex:0 0 auto;margin-top:2px;}
+  .notice p{margin:0;font-size:.9rem;color:#6b5327;}
+
+  /* 页尾 */
+  footer.site{
+    background:var(--ink);color:#a9b4cc;padding:38px 0 30px;margin-top:14px;
+    font-size:.88rem;
+  }
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:30px;}
+  .foot-brand{display:flex;align-items:center;gap:10px;color:#fff;margin-bottom:12px;}
+  .foot-brand svg{width:28px;height:28px;}
+  .foot-brand span{font-family:Consolas,monospace;font-weight:700;letter-spacing:.4px;}
+  footer.site h5{margin:0 0 10px;color:#fff;font-size:.86rem;letter-spacing:.08em;}
+  footer.site ul{list-style:none;margin:0;padding:0;display:grid;gap:7px;}
+  footer.site a:hover{color:#5eead4;}
+  .foot-bottom{
+    border-top:1px solid rgba(255,255,255,.1);margin-top:26px;padding-top:18px;
+    display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;font-size:.8rem;color:#7e8aa5;
+  }
+
+  @media (max-width:900px){
+    .hero-grid{grid-template-columns:1fr;gap:30px;}
+    .g3{grid-template-columns:1fr 1fr;}
+    .foot-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:640px){
+    body{font-size:15px;}
+    .hero{padding:38px 0 44px;}
+    .g3,.g2{grid-template-columns:1fr;}
+    .foot-grid{grid-template-columns:1fr;}
+    .head-inner{padding:10px 0;}
+    nav.main a{font-size:.85rem;padding:5px 8px;}
+    .btn{padding:10px 18px;font-size:.9rem;}
+    section{padding:38px 0;}
+    .prose{padding:24px 18px;}
+    .step{grid-template-columns:36px 1fr;gap:12px;}
+  }
+</style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top" aria-label="mw777.me 首页">
+      <svg viewBox="0 0 64 64" aria-hidden="true">
+        <rect width="64" height="64" rx="14" fill="#1c2540"/>
+        <path d="M14 44V20h6l6 12 6-12h6l-9 24h-6l-3-6-3 6z" fill="#5eead4"/>
+        <circle cx="46" cy="24" r="5" fill="#e8a33d"/>
+      </svg>
+      <span class="bt">mw777.me</span>
+    </a>
+    <nav class="main" aria-label="主导航">
+      <a href="#position">页面定位</a>
+      <a href="#access">访问入口</a>
+      <a href="#steps">访问步骤</a>
+      <a href="#notes">使用说明</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 首屏 -->
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="kicker"><i></i>主题首页</span>
+        <h1>mw777.me</h1>
+        <p class="lead">
+          mw777.me 是一个以域名本身作为访问标识的站点首页。本页集中说明 mw777.me 的页面定位、入口路径与访问方式，
+          并把使用中需要注意的细节整理成可直接阅读的条目，方便第一次到访的访问者快速上手。
+        </p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="#access">查看访问入口
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#notes">了解使用说明</a>
+          <a class="btn btn-disabled" href="#" data-download-placeholder="true" aria-disabled="true" tabindex="-1">下载</a>
+        </div>
+      </div>
+      <aside class="hero-art" aria-label="mw777.me 页面速览">
+        <h2>页面速览</h2>
+        <ul class="mini-list">
+          <li><span>访问标识</span><b>mw777.me</b></li>
+          <li><span>页面类型</span><b>主题首页</b></li>
+          <li><span>核心内容</span><b>入口与说明</b></li>
+          <li><span>适用人群</span><b>首次到访者</b></li>
+          <li><span>阅读方式</span><b>自上而下</b></li>
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <!-- 页面定位 -->
+  <section id="position">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">Page Positioning</span>
+        <h2 class="sec-title">mw777.me 的页面定位与内容边界</h2>
+        <p class="sec-desc">先弄清楚这一页提供什么、不提供什么，再决定是否继续往下读。</p>
+      </div>
+      <div class="grid g3">
+        <article class="card">
+          <div class="ico" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 8v5l3 2"/></svg>
+          </div>
+          <h3>以域名为主轴</h3>
+          <p>mw777.me 的全部内容围绕这一个域名展开，不引申到其他站点，也不混入无关的第三方信息。</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h10M4 17h13"/></svg>
+          </div>
+          <h3>面向首次到访</h3>
+          <p>内容顺序按“这是什么—怎么进—注意什么”排列，第一次接触 mw777.me 的访问者可以顺着读下来。</p>
+        </article>
+        <article class="card">
+          <div class="ico" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 4v5c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9V7z"/></svg>
+          </div>
+          <h3>只陈述已知内容</h3>
+          <p>凡本页未明确写明的事项，均不作推测性描述；以页面现有文字为准，避免误读。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 访问入口 -->
+  <section id="access">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">Access</span>
+        <h2 class="sec-title">mw777.me 访问入口与地址识别</h2>
+        <p class="sec-desc">识别地址是否属于 mw777.me，是安全访问的第一步。</p>
+      </div>
+      <div class="prose">
+        <h3>地址由域名主体与后缀组成</h3>
+        <p>
+          mw777.me 中的 <strong>mw777</strong> 是域名主体，<strong>.me</strong> 是顶级后缀，两者组合才构成完整可识别的地址。
+          访问时应在浏览器地址栏输入完整形式，而不是只输入其中一部分。
+        </p>
+        <h3>为什么强调完整书写</h3>
+        <p>
+          部分相似字符串容易与 mw777.me 混淆。建议在输入或复制后，逐字核对主体与后缀是否与 mw777.me 一致，
+          再继续访问。本页不推荐任何第三方转述地址，以免出现偏差。
+        </p>
+        <div class="divider"></div>
+        <h3>入口页与本页的关系</h3>
+        <p>
+          本页是 mw777.me 的主题首页，承担说明与引导的作用。若你需要的是具体功能入口，请以实际打开的 mw777.me 页面为准；
+          本页只负责把入口信息和访问路径讲清楚。
+        </p>
+      </div>
+      <div class="notice">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#c08a1e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 9v4M12 17h.01"/><path d="M10.3 3.9L2.6 17.2a2 2 0 0 0 1.7 3h15.4a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+        <p>提示：本页所写的 mw777.me 相关信息仅用于说明页面本身。凡涉及个人账户、支付或身份信息的操作，请自行判断风险，本页不代为处理。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 访问步骤 -->
+  <section id="steps">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">Steps</span>
+        <h2 class="sec-title">访问 mw777.me 的四步流程</h2>
+        <p class="sec-desc">把流程拆开，每一步只做一件事。</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div>
+            <h4>确认目标地址</h4>
+            <p>先在纸面或备忘录中写明 mw777.me，核对域名主体与后缀均无缺漏。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>在地址栏完整输入</h4>
+            <p>打开浏览器，把 mw777.me 完整键入地址栏并回车，不使用搜索框代输。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>核对页面信息</h4>
+            <p>页面加载后，先看页面上是否出现与 mw777.me 一致的标识，再继续浏览内容。</p>
+          </div>
+        </div>
+        <div class="step">
+          <div>
+            <h4>按需阅读与返回</h4>
+            <p>阅读你关心的栏目；如需回到说明，可回到本页对照各章节的条目。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 使用说明 -->
+  <section id="notes">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">Notes</span>
+        <h2 class="sec-title">使用 mw777.me 时的几项基本说明</h2>
+        <p class="sec-desc">这些说明来自页面本身的内容组织方式，不涉及外部承诺。</p>
+      </div>
+      <div class="grid g2">
+        <article class="card">
+          <h3>阅读顺序建议</h3>
+          <p>建议先读页面定位，再看访问入口，最后看常见问题。这个顺序与各栏目的信息依赖关系一致，跳读容易漏掉前提。</p>
+          <p>若时间有限，可只读“访问入口”一节，它包含最直接的操作信息。</p>
+        </article>
+        <article class="card">
+          <h3>信息以本页为准</h3>
+          <p>本页关于 mw777.me 的描述，仅限于本页已写出的内容。其他渠道的说法若与本页不一致，请以本页文字为参照并自行核对。</p>
+          <p>本页不设评论、投稿或用户生成内容区域，所有文字由页面维护者统一组织。</p>
+        </article>
+        <article class="card">
+          <h3>设备与浏览器</h3>
+          <p>本页在手机与桌面浏览器中均可完整阅读，导航会随屏幕宽度自动折行。较旧版本的浏览器可能无法显示部分圆角与渐变效果，但不影响文字内容。</p>
+        </article>
+        <article class="card">
+          <h3>关于下载按钮</h3>
+          <p>首屏的“下载”按钮目前处于不可用状态，仅作位置占位，点击不会触发任何文件传输。请在确认地址后以实际页面提供的功能为准。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="sec-tag">FAQ</span>
+        <h2 class="sec-title">mw777.me 常见问题</h2>
+        <p class="sec-desc">围绕地址书写、入口识别与页面用途的高频疑问。</p>
+      </div>
+
+      <details class="faq" open>
+        <summary>mw777.me 与只写 mw777 有什么区别？</summary>
+        <p>mw777 只是域名主体，单独书写无法构成可访问的完整地址。mw777.me 包含主体与 .me 后缀，两者缺一不可，输入时应保持完整。</p>
+      </details>
+
+      <details class="faq">
+        <summary>本页和 mw777.me 的实际页面是同一个吗？</summary>
+        <p>本页是 mw777.me 的主题首页，用于集中说明入口与使用方式。具体功能以实际打开的 mw777.me 页面为准，本页不代替其功能页面。</p>
+      </details>
+
+      <details class="faq">
+        <summary>页面里的下载按钮为什么点不了？</summary>
+        <p>该按钮目前仅作占位，尚未关联文件地址，因此保持禁用状态。待地址确认后才会启用，现阶段请勿反复点击。</p>
+      </details>
+
+      <details class="faq">
+        <summary>在手机上阅读需要注意什么？</summary>
+        <p>手机端导航会折行显示，栏目按单列排列。建议从上往下依次阅读，遇到折叠的问答条目点开即可查看完整回答。</p>
+      </details>
+
+      <details class="faq">
+        <summary>本页会收集我的信息吗？</summary>
+        <p>本页不设表单、登录或提交入口，页面文字中也不要求填写任何个人信息。若在其他页面遇到此类请求，请自行判断并核实来源。</p>
+      </details>
+
+      <div class="prose" style="margin-top:26px;">
+        <h3>把入口信息记牢，比反复搜索更省事</h3>
+        <p>
+          对多数访问者来说，mw777.me 的难点不在内容本身，而在地址是否写得准确。把完整地址保存到书签，
+          下次直接点击，就能避开输入错误带来的困扰。
+        </p>
+        <p>
+          本页各栏目分别承担定位说明、入口识别、操作步骤、使用注意事项与疑问解答的任务，读完后你应该能独立判断
+          一个地址是否属于 mw777.me，并知道下一步该做什么。若仍有疑问，可回到对应栏目重读一遍，通常就能找到答案。
+        </p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-brand">
+          <svg viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#1c2540"/>
+            <path d="M14 44V20h6l6 12 6-12h6l-9 24h-6l-3-6-3 6z" fill="#5eead4"/>
+            <circle cx="46" cy="24" r="5" fill="#e8a33d"/>
+          </svg>
+          <span>mw777.me</span>
+        </div>
+        <p style="margin:0;max-width:26em;">mw777.me 主题首页，集中说明页面定位、访问入口与使用方式，供首次到访者查阅。</p>
+      </div>
+      <div>
+        <h5>页面栏目</h5>
+        <ul>
+          <li><a href="#position">页面定位</a></li>
+          <li><a href="#access">访问入口</a></li>
+          <li><a href="#steps">访问步骤</a></li>
+          <li><a href="#notes">使用说明</a></li>
+          <li><a href="#faq">常见问题</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5>快速回到</h5>
+        <ul>
+          <li><a href="#top">页面顶部</a></li>
+          <li><a href="#access">地址识别</a></li>
+          <li><a href="#faq">疑问解答</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© mw777.me 主题首页</span>
+      <span>本页内容仅用于说明 mw777.me 的入口与使用方式</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+  </html>
