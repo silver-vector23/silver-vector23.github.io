@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>一本道理不卡一二三区在线观看-不卡一二三区在线观看_一本道理流畅播放体验</title>
+<meta name="description" content="一本道理不卡一二三区在线观看：说明一本道理不卡一二三区在线观看的线路差异、流畅播放要点与常见卡顿排查方式，帮助访问者快速找到可正常播放的入口。">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141c2b'/%3E%3Cpath d='M20 22h24v20H20z' fill='none' stroke='%23f2b544' stroke-width='3'/%3E%3Cpath d='M27 28l12 4-12 4z' fill='%23f2b544'/%3E%3C/svg%3E">
+<style>
+:root{
+  --ink:#161b24;
+  --ink-2:#2b3444;
+  --muted:#5d6879;
+  --line:#e3e0d8;
+  --paper:#f7f4ee;
+  --card:#ffffff;
+  --gold:#c98a24;
+  --gold-soft:#f4e6c9;
+  --deep:#141c2b;
+  --radius:14px;
+}
+*{box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  margin:0;
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,"Segoe UI",sans-serif;
+  background:var(--paper);
+  color:var(--ink);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none;}
+img,svg{display:block;max-width:100%;}
+.wrap{width:min(1120px,92vw);margin:0 auto;}
+
+/* header */
+header.site{
+  position:sticky;top:0;z-index:30;
+  background:rgba(20,28,43,.96);
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid rgba(255,255,255,.08);
+}
+.head-inner{
+  display:flex;align-items:center;justify-content:space-between;gap:18px;
+  padding:12px 0;
+}
+.brand{display:flex;align-items:center;gap:11px;color:#fff;}
+.brand-mark{
+  width:38px;height:38px;flex:0 0 38px;border-radius:10px;
+  background:var(--gold-soft);
+  display:grid;place-items:center;
+}
+.brand-mark svg{width:24px;height:24px;}
+.brand-text{
+  font-size:15px;font-weight:700;letter-spacing:.2px;line-height:1.35;
+  max-width:15em;
+}
+nav.main{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end;}
+nav.main a{
+  color:#cfd6e2;font-size:13.5px;padding:7px 12px;border-radius:999px;
+  transition:.2s;
+}
+nav.main a:hover{background:rgba(255,255,255,.1);color:#fff;}
+.menu-btn{display:none;background:none;border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:8px;padding:6px 10px;font-size:13px;}
+
+/* hero */
+.hero{
+  background:
+    radial-gradient(1200px 420px at 85% -10%, rgba(201,138,36,.28), transparent 60%),
+    linear-gradient(160deg,#141c2b 0%,#1d2739 52%,#111823 100%);
+  color:#fff;
+  padding:56px 0 46px;
+  position:relative;
+  overflow:hidden;
+}
+.hero::after{
+  content:"";position:absolute;inset:auto -60px -90px auto;width:340px;height:340px;
+  border-radius:50%;border:1px solid rgba(244,230,201,.16);pointer-events:none;
+}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:40px;align-items:center;}
+.eyebrow{
+  display:inline-flex;align-items:center;gap:8px;
+  font-size:12.5px;letter-spacing:1.6px;color:#e7c98d;
+  border:1px solid rgba(231,201,141,.35);border-radius:999px;padding:5px 13px;
+  margin-bottom:18px;
+}
+h1{
+  font-size:clamp(24px,3.3vw,38px);
+  line-height:1.34;
+  margin:0 0 16px;
+  font-weight:800;
+  letter-spacing:.5px;
+}
+.hero p.lead{
+  color:#c8d0dc;font-size:15.5px;margin:0 0 26px;max-width:34em;
+}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:11px 22px;border-radius:10px;font-size:14.5px;font-weight:600;
+  transition:.2s;border:1px solid transparent;
+}
+.btn-primary{background:var(--gold);color:#1a1206;}
+.btn-primary:hover{background:#dda03a;}
+.btn-ghost{border-color:rgba(255,255,255,.3);color:#e9edf4;}
+.btn-ghost:hover{background:rgba(255,255,255,.1);}
+.hero-stats{
+  display:flex;gap:26px;margin-top:32px;flex-wrap:wrap;
+  border-top:1px solid rgba(255,255,255,.12);padding-top:18px;
+}
+.hero-stats div{font-size:12.5px;color:#9fabbd;}
+.hero-stats strong{display:block;font-size:19px;color:#f4e6c9;font-weight:700;}
+.screen{
+  border-radius:16px;background:#0e1520;border:1px solid rgba(255,255,255,.1);
+  padding:16px;box-shadow:0 24px 60px rgba(0,0,0,.45);
+}
+.screen-top{display:flex;gap:6px;margin-bottom:12px;}
+.screen-top i{width:9px;height:9px;border-radius:50%;background:#3c4759;}
+.screen-body{
+  border-radius:10px;overflow:hidden;background:linear-gradient(140deg,#1c2536,#101722);
+  aspect-ratio:16/9;display:grid;place-items:center;position:relative;
+}
+.screen-body svg{width:64px;height:64px;opacity:.9;}
+.screen-body::after{
+  content:"";position:absolute;inset:auto 0 0 0;height:4px;
+  background:linear-gradient(90deg,var(--gold) 0 62%,rgba(255,255,255,.14) 62% 100%);
+}
+.screen-meta{display:flex;justify-content:space-between;font-size:12px;color:#8f9cb0;margin-top:11px;}
+
+/* sections */
+section.block{padding:54px 0;}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:26px;flex-wrap:wrap;}
+.sec-head h2{
+  font-size:clamp(19px,2.2vw,24px);margin:0;font-weight:800;letter-spacing:.4px;
+  position:relative;padding-left:14px;
+}
+.sec-head h2::before{
+  content:"";position:absolute;left:0;top:.25em;bottom:.25em;width:4px;border-radius:3px;background:var(--gold);
+}
+.sec-head p{margin:0;color:var(--muted);font-size:13.5px;max-width:36em;}
+
+/* line cards */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:24px 22px;display:flex;flex-direction:column;gap:10px;
+  transition:.22s;
+}
+.card:hover{transform:translateY(-3px);box-shadow:0 16px 34px rgba(22,27,36,.09);border-color:#d5cbb6;}
+.card .tag{
+  font-size:11.5px;letter-spacing:1px;color:#8a6416;background:var(--gold-soft);
+  border-radius:999px;padding:3px 10px;align-self:flex-start;font-weight:600;
+}
+.card h3{margin:0;font-size:16.5px;font-weight:700;}
+.card p{margin:0;font-size:14px;color:var(--muted);}
+.card ul{margin:4px 0 0;padding-left:18px;font-size:13.5px;color:var(--ink-2);}
+.card ul li{margin:3px 0;}
+
+/* checklist / steps */
+.split{display:grid;grid-template-columns:1.05fr .95fr;gap:36px;align-items:start;}
+.steps{list-style:none;margin:0;padding:0;counter-reset:st;}
+.steps li{
+  counter-increment:st;position:relative;padding:0 0 20px 54px;
+  border-left:2px solid #e7dfcf;margin-left:16px;
+}
+.steps li:last-child{border-left-color:transparent;padding-bottom:0;}
+.steps li::before{
+  content:counter(st);
+  position:absolute;left:-17px;top:0;width:32px;height:32px;border-radius:50%;
+  background:var(--deep);color:#f4e6c9;font-size:14px;font-weight:700;
+  display:grid;place-items:center;
+}
+.steps h4{margin:2px 0 5px;font-size:15px;}
+.steps p{margin:0;font-size:13.5px;color:var(--muted);}
+
+.panel{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 24px;
+}
+.panel h3{margin:0 0 12px;font-size:16.5px;}
+.panel p{margin:0 0 12px;font-size:14px;color:var(--muted);}
+.panel p:last-child{margin-bottom:0;}
+
+/* filter */
+.filter-bar{
+  display:flex;gap:10px;flex-wrap:wrap;align-items:center;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:14px 16px;margin-bottom:22px;
+}
+.filter-bar label{font-size:13.5px;color:var(--muted);}
+.filter-bar input{
+  flex:1 1 200px;min-width:160px;padding:9px 12px;border-radius:9px;
+  border:1px solid var(--line);background:#fbfaf7;font-size:14px;color:var(--ink);
+  font-family:inherit;
+}
+.filter-bar input:focus{outline:2px solid var(--gold-soft);border-color:var(--gold);}
+.filter-bar button{
+  padding:9px 18px;border-radius:9px;border:1px solid var(--deep);
+  background:var(--deep);color:#f4e6c9;font-size:13.5px;font-weight:600;cursor:pointer;font-family:inherit;
+}
+.filter-bar button:hover{background:#20304a;}
+.list{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;}
+.entry{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:16px 18px;
+}
+.entry h4{margin:0 0 6px;font-size:15px;}
+.entry span{font-size:12.5px;color:var(--muted);}
+.entry p{margin:6px 0 0;font-size:13.5px;color:var(--ink-2);}
+.empty{display:none;padding:20px;text-align:center;color:var(--muted);font-size:14px;}
+.empty.show{display:block;}
+
+/* faq */
+.faq{display:grid;gap:12px;}
+details{
+  background:var(--card);border:1px solid var(--line);border-radius:12px;
+  padding:16px 20px;
+}
+details[open]{border-color:#d5cbb6;}
+summary{
+  cursor:pointer;font-weight:700;font-size:15px;list-style:none;
+  display:flex;justify-content:space-between;gap:14px;align-items:center;
+}
+summary::-webkit-details-marker{display:none;}
+summary::after{content:"+";color:var(--gold);font-size:18px;font-weight:700;line-height:1;}
+details[open] summary::after{content:"–";}
+details p{margin:12px 0 0;font-size:14px;color:var(--muted);}
+
+/* download */
+.dl{
+  background:var(--deep);color:#fff;border-radius:16px;padding:34px 32px;
+  display:flex;justify-content:space-between;align-items:center;gap:26px;flex-wrap:wrap;
+  background-image:radial-gradient(600px 200px at 90% 0%,rgba(201,138,36,.28),transparent 70%);
+}
+.dl h3{margin:0 0 8px;font-size:19px;}
+.dl p{margin:0;font-size:13.5px;color:#b9c3d2;max-width:36em;}
+.btn-dl{
+  display:inline-flex;align-items:center;gap:8px;padding:12px 26px;border-radius:10px;
+  background:var(--gold);color:#1a1206;font-weight:700;font-size:14.5px;
+  pointer-events:none;opacity:.95;
+}
+
+/* footer */
+footer.site{
+  background:#101722;color:#93a0b3;padding:38px 0 26px;margin-top:10px;
+}
+.foot-grid{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:flex-start;}
+.foot-brand{display:flex;align-items:center;gap:10px;color:#e9edf4;font-size:14px;font-weight:700;max-width:20em;line-height:1.4;}
+.foot-links{display:flex;gap:18px;flex-wrap:wrap;font-size:13px;}
+.foot-links a:hover{color:#f4e6c9;}
+.foot-note{margin-top:24px;padding-top:16px;border-top:1px solid rgba(255,255,255,.08);font-size:12.5px;color:#6e7c90;line-height:1.9;}
+
+@media (max-width:900px){
+  .hero-grid{grid-template-columns:1fr;gap:28px;}
+  .cards{grid-template-columns:1fr;}
+  .split{grid-template-columns:1fr;}
+  .list{grid-template-columns:1fr;}
+  nav.main{display:none;}
+  nav.main.open{display:flex;position:absolute;top:100%;left:0;right:0;background:#141c2b;padding:10px 4vw 16px;flex-direction:column;gap:2px;border-bottom:1px solid rgba(255,255,255,.1);}
+  nav.main.open a{padding:10px 12px;}
+  .menu-btn{display:inline-block;}
+  header.site{position:sticky;}
+  .brand-text{font-size:13.5px;}
+  section.block{padding:40px 0;}
+  .hero{padding:38px 0 34px;}
+  .dl{padding:26px 22px;}
+  .hero-stats{gap:18px;}
+}
+</style>
+    <script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrap head-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none">
+          <rect x="2.5" y="4.5" width="19" height="14" rx="2.5" stroke="#8a6416" stroke-width="1.6"/>
+          <path d="M10 9.2l5 2.8-5 2.8z" fill="#8a6416"/>
+        </svg>
+      </span>
+      <span class="brand-text">一本道理不卡一二三区在线观看</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">导航</button>
+    <nav class="main" id="mainNav" aria-label="主导航">
+      <a href="#lines">线路说明</a>
+      <a href="#smooth">流畅要点</a>
+      <a href="#check">卡顿排查</a>
+      <a href="#faq">常见疑问</a>
+      <a href="#download">资源下载</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">一二三区线路 · 流畅播放说明</span>
+        <h1>一本道理不卡一二三区在线观看</h1>
+        <p class="lead">围绕「一本道理不卡一二三区在线观看」的实际使用场景，这里把一二三区的线路差别、播放前的准备、卡顿出现后的排查顺序逐条讲清，方便直接对照操作。</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#lines">查看线路说明</a>
+          <a class="btn btn-ghost" href="#check">开始卡顿排查</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>3</strong>线路分区</div>
+          <div><strong>6</strong>排查步骤</div>
+          <div><strong>5</strong>常见疑问</div>
+        </div>
+      </div>
+      <div class="screen" aria-hidden="true">
+        <div class="screen-top"><i></i><i></i><i></i></div>
+        <div class="screen-body">
+          <svg viewBox="0 0 64 64" fill="none">
+            <rect x="6" y="12" width="52" height="36" rx="4" stroke="#f4e6c9" stroke-width="2.4" opacity=".85"/>
+            <path d="M27 24l14 8-14 8z" fill="#c98a24"/>
+            <path d="M22 56h20" stroke="#f4e6c9" stroke-width="2.4" stroke-linecap="round" opacity=".6"/>
+          </svg>
+        </div>
+        <div class="screen-meta"><span>线路状态：可用</span><span>缓冲顺畅</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="lines">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>一二三区线路各自适合什么情况</h2>
+        <p>「不卡一二三区」指的是同一内容提供多个线路分区，播放器可按需切换。以下按线路定位分别说明，具体可用状态以页面实际显示为准。</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <span class="tag">一区</span>
+          <h3>默认优先，先从这里开始</h3>
+          <p>一区通常作为首选线路，加载顺序靠前，适合网络条件普通、希望少做设置的访问者。</p>
+          <ul>
+            <li>打开页面即可尝试播放</li>
+            <li>遇到缓冲时先记录现象</li>
+            <li>不必先切换分区</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="tag">二区</span>
+          <h3>一区反复缓冲时的备选</h3>
+          <p>二区是常见的第二顺位，适合一区长时间转圈、但网络本身没有断开的情况。</p>
+          <ul>
+            <li>切换后重新加载播放</li>
+            <li>观察是否仍在中途停顿</li>
+            <li>保留可用的线路记录</li>
+          </ul>
+        </article>
+        <article class="card">
+          <span class="tag">三区</span>
+          <h3>前两区都不顺时再试</h3>
+          <p>三区作为后置线路，适合在高峰时段或前两区响应偏慢时作为补充选择。</p>
+          <ul>
+            <li>高峰时段可优先尝试</li>
+            <li>切换前先清一次缓存</li>
+            <li>不要同时开多个播放页</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="smooth" style="background:#fdfbf6;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>让一本道理不卡一二三区在线观看更顺的四个习惯</h2>
+        <p>播放是否顺畅，多数时候取决于播放前几分钟的准备。下面这些做法成本低，但对减少中途停顿有帮助。</p>
+      </div>
+      <div class="split">
+        <ol class="steps">
+          <li>
+            <h4>先确认网络本身稳定</h4>
+            <p>播放前用其他页面测试加载速度。如果整体网络都慢，切换一二三区往往也解决不了问题，应先处理网络。</p>
+          </li>
+          <li>
+            <h4>只保留一个播放页面</h4>
+            <p>同时打开多个标签页会分摊带宽。需要对比线路时，先关闭上一个页面再打开新的。</p>
+          </li>
+          <li>
+            <h4>播放前等待短暂缓冲</h4>
+            <p>点击播放后先让进度条走一小段再观看，比一开播就快进更不容易出现反复卡顿。</p>
+          </li>
+          <li>
+            <h4>按顺序切换分区</h4>
+            <p>从一区开始，缓冲异常再依次尝试二区、三区。无序切换容易把网络问题和线路问题混在一起。</p>
+          </li>
+        </ol>
+        <div class="panel">
+          <h3>关于「不卡」的准确理解</h3>
+          <p>「不卡」描述的是提供多线路切换、尽量降低播放中断的使用体验，并不等于任何网络环境下都完全无缓冲。线路的可用状态会随访问时段与本地网络变化。</p>
+          <p>因此更稳妥的做法是：把一二三区看作三个可替换的入口，遇到问题按顺序尝试，而不是期待某一条线路始终最快。</p>
+          <p>页面所讲的内容只覆盖播放前的准备与播放中的排查，不涉及内容本身的判断与评价。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="check">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>卡顿排查：按现象选择处理顺序</h2>
+        <p>输入你遇到的现象，下方条目会即时筛选，便于快速定位对应做法。</p>
+      </div>
+      <div class="filter-bar">
+        <label for="q">筛选现象</label>
+        <input id="q" type="search" placeholder="例如：缓冲、黑屏、声音、切换" autocomplete="off">
+        <button type="button" id="clearBtn">清空</button>
+      </div>
+      <div class="list" id="list">
+        <article class="entry" data-k="缓冲 转圈 加载 停顿">
+          <h4>一直转圈，进度条不动</h4>
+          <span>现象：加载阶段</span>
+          <p>先刷新页面；仍无变化则依次切换二区、三区。若三条线路都停在同一位置，优先检查本地网络。</p>
+        </article>
+        <article class="entry" data-k="黑屏 画面 无声 声音">
+          <h4>画面黑屏或只有声音</h4>
+          <span>现象：播放阶段</span>
+          <p>退出当前页面重新进入，避免在后台长时间挂起。浏览器标签过多时先关闭其余标签。</p>
+        </article>
+        <article class="entry" data-k="切换 分区 线路">
+          <h4>切换分区后没有变化</h4>
+          <span>现象：切换阶段</span>
+          <p>切换后需要重新加载播放。若两次切换结果相同，说明问题更可能出在本地网络而非线路。</p>
+        </article>
+        <article class="entry" data-k="卡顿 中途 停顿 快进">
+          <h4>播放中途反复停顿</h4>
+          <span>现象：播放中段</span>
+          <p>停止快进操作，让已缓冲部分先播放完毕。高峰时段可尝试后置线路。</p>
+        </article>
+        <article class="entry" data-k="手机 移动 网络 流量">
+          <h4>手机端播放不顺畅</h4>
+          <span>现象：移动设备</span>
+          <p>在无线网络与移动数据之间切换对比一次，可快速判断是网络问题还是设备问题。</p>
+        </article>
+        <article class="entry" data-k="缓存 清理 浏览器">
+          <h4>怀疑浏览器缓存影响</h4>
+          <span>现象：浏览器环境</span>
+          <p>清理最近缓存后重新打开页面，再按一区、二区、三区顺序尝试，记录哪条线路可用。</p>
+        </article>
+      </div>
+      <p class="empty" id="empty">没有匹配的条目，可清空条件后重新选择。</p>
+    </div>
+  </section>
+
+  <section class="block" id="faq" style="background:#fdfbf6;border-top:1px solid var(--line);border-bottom:1px solid var(--line);">
+    <div class="wrap">
+      <div class="sec-head">
+        <h2>一本道理不卡一二三区在线观看常见疑问</h2>
+        <p>以下回答只针对线路与播放体验，不涉及其他方面的判断。</p>
+      </div>
+      <div class="faq">
+        <details open>
+          <summary>一二三区是三个不同的内容库吗？</summary>
+          <p>不是。它们指同一内容的不同访问线路，作用是当某条线路响应慢时提供替换入口，内容本身不作区分。</p>
+        </details>
+        <details>
+          <summary>为什么我在一区总是比二区慢？</summary>
+          <p>线路响应与访问时段、本地网络和同时使用的人数有关，不同人、不同时间的结果可能相反。以自己实测可用的线路为准即可。</p>
+        </details>
+        <details>
+          <summary>「不卡」是否表示完全不会缓冲？</summary>
+          <p>不是。它表示提供多线路切换、尽量降低中断的使用方式。实际体验仍受网络环境影响，遇到缓冲按排查顺序处理更有效。</p>
+        </details>
+        <details>
+          <summary>切换线路需要注意什么？</summary>
+          <p>切换前关闭当前播放页，切换后重新加载，避免同一时间开多个播放窗口分摊带宽。</p>
+        </details>
+        <details>
+          <summary>手机和电脑的处理方式一样吗？</summary>
+          <p>排查思路相同，区别在移动端可额外对比无线网络与移动数据，从而更快判断问题来源。</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="block" id="download">
+    <div class="wrap">
+      <div class="dl">
+        <div>
+          <h3>线路切换速查表</h3>
+          <p>把一区、二区、三区的尝试顺序与对应现象整理成一页速查内容，播放前对照一次，减少反复试错。下载入口当前为占位状态，后续替换为实际地址。</p>
+        </div>
+        <a class="btn-dl" href="#" data-download-placeholder="true" aria-disabled="true" tabindex="-1">下载</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none">
+            <rect x="2.5" y="4.5" width="19" height="14" rx="2.5" stroke="#8a6416" stroke-width="1.6"/>
+            <path d="M10 9.2l5 2.8-5 2.8z" fill="#8a6416"/>
+          </svg>
+        </span>
+        一本道理不卡一二三区在线观看
+      </div>
+      <nav class="foot-links" aria-label="页尾导航">
+        <a href="#lines">线路说明</a>
+        <a href="#smooth">流畅要点</a>
+        <a href="#check">卡顿排查</a>
+        <a href="#faq">常见疑问</a>
+        <a href="#top">返回顶部</a>
+      </nav>
+    </div>
+    <p class="foot-note">一本道理不卡一二三区在线观看聚焦线路切换与播放排查的说明内容。线路可用状态与播放表现随访问时段和本地网络变化，请以实际页面显示为准。</p>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var btn = document.getElementById('menuBtn');
+  var nav = document.getElementById('mainNav');
+  if(btn && nav){
+    btn.addEventListener('click', function(){
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    nav.addEventListener('click', function(e){
+      if(e.target.tagName === 'A'){
+        nav.classList.remove('open');
+        btn.setAttribute('aria-expanded','false');
+      }
+    });
+  }
+
+  var q = document.getElementById('q');
+  var list = document.getElementById('list');
+  var empty = document.getElementById('empty');
+  var clearBtn = document.getElementById('clearBtn');
+  var entries = list ? Array.prototype.slice.call(list.querySelectorAll('.entry')) : [];
+
+  function filter(){
+    var v = (q.value || '').trim().toLowerCase();
+    var shown = 0;
+    entries.forEach(function(el){
+      var text = (el.getAttribute('data-k') + ' ' + el.textContent).toLowerCase();
+      var hit = !v || text.indexOf(v) !== -1;
+      el.style.display = hit ? '' : 'none';
+      if(hit) shown++;
+    });
+    empty.classList.toggle('show', shown === 0);
+  }
+
+  if(q){ q.addEventListener('input', filter); }
+  if(clearBtn){
+    clearBtn.addEventListener('click', function(){
+      q.value = '';
+      filter();
+      q.focus();
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
